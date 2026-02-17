@@ -1,7 +1,7 @@
 package DevDojo_Maratona.javacore.Aintroducaoclasses.dominio;
 
-public class Professor {
+public class A39_Estudante {
     public String nome;
-    public int ra;
-    public String materia;
+    public int idade;
+    public char sexo;
 }

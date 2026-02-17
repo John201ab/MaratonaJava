@@ -1,10 +1,10 @@
 package DevDojo_Maratona.javacore.Aintroducaoclasses.teste;
 
-import DevDojo_Maratona.javacore.Aintroducaoclasses.dominio.Estudante;
+import DevDojo_Maratona.javacore.Aintroducaoclasses.dominio.A39_Estudante;
 
-public class EstudanteTeste {
+public class A39_EstudanteTeste {
     static void main(String[] args) {
-        Estudante estudante = new Estudante();
+        A39_Estudante estudante = new A39_Estudante();
 
         estudante.nome = "John";
         estudante.idade = 21;
