@@ -1,28 +1,35 @@
 package DevDojo_Maratona.javacore.Bintroducaometodos.dominio;
 
-import org.w3c.dom.ls.LSOutput;
+public class A53_funcionarioExercicio {
 
-import javax.swing.plaf.PanelUI;
+    String nome = "João";
+    int idade = 20;
+    double[] salarios = {1500.00, 1000.00, 2000.00};
 
-public class A53_funcionarioExercicio{
 
-    public String nome = "joão";
-    public int idade = 20;
-    public double[] salario = {1900, 1300, 5000};
-
-    public void funcionario(){
+    public void imprima() {
         System.out.println(this.nome);
         System.out.println(this.idade);
-        for ( double salarios: salario){
-            System.out.println(salarios + " ");
+        if (salarios == null) {
+            System.out.print("Os salarios são: ");
+            for (double num : salarios) {
+                System.out.print(num + ", ");
+            }
         }
     }
-    public void media(){
-        double val = 0;
-        for( double num : this.salario){
-            val += num;
+
+    public void medias() {
+        if (salarios == null) {
+            return;
         }
-        double result = val / this.salario.length;
-        System.out.println(result);
+
+        double cont = 0;
+        for (double num : this.salarios) {
+            cont += num;
+        }
+        double media = cont / this.salarios.length;
+
+        System.out.println("A média é: " + media);
     }
+
 }
