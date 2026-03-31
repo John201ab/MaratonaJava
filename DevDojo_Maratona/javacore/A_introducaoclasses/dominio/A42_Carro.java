@@ -1,4 +1,4 @@
-package DevDojo_Maratona.javacore.Aintroducaoclasses.dominio;
+package DevDojo_Maratona.javacore.A_introducaoclasses.dominio;
 
 public class A42_Carro {
     public String nome;

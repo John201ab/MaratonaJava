@@ -1,6 +1,6 @@
-package DevDojo_Maratona.javacore.Bintroducaometodos.test;
+package DevDojo_Maratona.javacore.B_introducaometodos.test;
 
-import DevDojo_Maratona.javacore.Bintroducaometodos.dominio.A44_Calculadora;
+import DevDojo_Maratona.javacore.B_introducaometodos.dominio.A44_Calculadora;
 
 public class A44_calculadoraTest {
     static void main(String[] args) {

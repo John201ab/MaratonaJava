@@ -1,6 +1,6 @@
-package DevDojo_Maratona.javacore.Aintroducaoclasses.teste;
+package DevDojo_Maratona.javacore.A_introducaoclasses.teste;
 
-import DevDojo_Maratona.javacore.Aintroducaoclasses.dominio.A42_Carro;
+import DevDojo_Maratona.javacore.A_introducaoclasses.dominio.A42_Carro;
 
 public class A42_CarroTeste {
     static void main(String[] args) {

@@ -1,6 +1,6 @@
-package DevDojo_Maratona.javacore.Aintroducaoclasses.teste;
+package DevDojo_Maratona.javacore.A_introducaoclasses.teste;
 
-import DevDojo_Maratona.javacore.Aintroducaoclasses.dominio.A39_Estudante;
+import DevDojo_Maratona.javacore.A_introducaoclasses.dominio.A39_Estudante;
 
 public class A39_EstudanteTeste {
     static void main(String[] args) {

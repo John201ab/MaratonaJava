@@ -1,4 +1,4 @@
-package DevDojo_Maratona.javacore.Bintroducaometodos.dominio;
+package DevDojo_Maratona.javacore.B_introducaometodos.dominio;
 
 public class A53_funcionario {
     public String nome = null;

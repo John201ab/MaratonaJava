@@ -1,7 +1,7 @@
-package DevDojo_Maratona.javacore.Bintroducaometodos.test;
+package DevDojo_Maratona.javacore.B_introducaometodos.test;
 
 
-import DevDojo_Maratona.javacore.Bintroducaometodos.dominio.A46_calculadoraReturn;
+import DevDojo_Maratona.javacore.B_introducaometodos.dominio.A46_calculadoraReturn;
 
 public class A46_calculadoraReturnTeste   {
     static void main(String[] args) {

@@ -1,6 +1,6 @@
-package DevDojo_Maratona.javacore.Bintroducaometodos.test;
+package DevDojo_Maratona.javacore.B_introducaometodos.test;
 
-import DevDojo_Maratona.javacore.Bintroducaometodos.dominio.A53_funcionario;
+import DevDojo_Maratona.javacore.B_introducaometodos.dominio.A53_funcionario;
 
 public class A53_funcionarioTeste {
     public void main(String[] args) {
