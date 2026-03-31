@@ -1,29 +1,24 @@
-package DevDojo_Maratona.javacore.C_sobrecargametodos.dominio;
+package DevDojo_Maratona.javacore.D_Construtores.dominio;
 
 public class Anime01 {
-
     private String nome;
     private String tipo;
     private String autor = "desconehcido";
     private int episodios;
     private int temporadas;
 
-
-    public void init( String nome, String tipo, int episodios, int temporadas){
+    //contrutor
+    //agora esses requisitos são obrigatorios
+    public Anime01(String nome, String tipo, int episodios, int temporadas, String autor){
         this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
         this.temporadas = temporadas;
-
     }
-    //    sobrecarga de métodos, para caso eu precise adicionar parametros a um metodo que já existe, ou deixar os
-    //     parâmetros opcionais
+    //esse construtor vazio tira a obrigação de preencher todos os parametros de anime
+    public Anime01(){
 
-    public void init(String nome, String tipo, int episodios, int temporadas, String autor){
-        this.init(nome, tipo, episodios, temporadas);
-        this.autor = autor;
-
-    }
+     }
 
     public void imprime() {
         System.out.println(this.nome);
